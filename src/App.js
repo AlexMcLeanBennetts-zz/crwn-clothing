@@ -40,7 +40,6 @@ const App = () => {
           <div className="category-container" key={category.id}>
             <div className="background-image" style={{
               backgroundImage: `url(${category.imageUrl})`,
-              backgroundPosition: '25% 25%'
             }} />
             <div className="category-body-container">
               <h2>{category.title}</h2>
